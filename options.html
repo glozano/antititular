@@ -1,0 +1,54 @@
+<style>
+	p,a,h1,h2,h3{
+		font-family: 'Open Sans', sans-serif;
+	}
+	.quote{
+		font-family: 'Space Mono', monospace;
+		font-size: 25px;
+		margin-bottom: 10px;
+	}
+	.quote-name{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 15px;
+	}
+	.wrapper{
+		margin: 15%;
+		margin-bottom: 0
+	}
+	.options{
+		margin-top: 50px;
+	}
+	.note{
+		margin-top: 20px;
+		font-size: 0.7em;
+	}
+	#input{
+		width: 100%;
+		display: block;	
+		min-height: 50px;
+	}
+	#status{
+		font-family: 'Space Mono', monospace;
+		margin-top: 20px;
+	}
+	#save{
+		margin-top: 20px;
+	}
+
+</style>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Space+Mono" rel="stylesheet">
+
+<div class="wrapper">
+	<div class="quote">"Liberar al virus contenido en la palabra podria ser mas peligroso que liberar la energia del atomo."</div>
+	<div class="quote-name">William Burroughs<div>
+	<div class="options">
+		<p>sitios interferidos </p>
+		<textarea id="input"></textarea>
+		</br>
+		<i class="note">(separados por una coma, respetando el formato http://wwww.web.com/)</i>
+	</div>
+	<button id="save">guardar sitios</button>
+	<div id="status"></div>
+</div>
+
+<script src="options.js"></script>
